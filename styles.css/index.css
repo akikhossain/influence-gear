@@ -42,3 +42,39 @@ ul > li a {
   font-size: 16px;
   font-weight: 600;
 }
+.main-header-container {
+  display: flex;
+  gap: 133px;
+}
+.main-header {
+  margin-top: 145px;
+  width: 582px;
+}
+.main-header-title {
+  color: #3a3a3a;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 16px;
+}
+.main-header-description {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  width: 505px;
+  margin-bottom: 16px;
+}
+.btn-primary {
+  border-radius: 41px;
+  background: #e02c6d;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 24px;
+  border: none;
+}
+.main-camera img {
+  margin-left: 133px;
+  border-radius: 475px;
+  border: 3px solid var(--brand-purple-100, #f1e4ff);
+}
